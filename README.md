@@ -93,8 +93,6 @@ Process the raw Criteo dataset and prepare it for feature engineering:
 
 python data_preparation.py
 
-This script:
-
 Loads the raw TSV data
 Performs initial cleaning and preprocessing
 Handles missing values
@@ -105,8 +103,6 @@ Train the conversion and attribution models:
 python feature_engineering.py
 python attribution_models.py
 python model_evaluation.py
-
-These scripts:
 
 Create advanced features from the processed data
 Train the conversion prediction model
