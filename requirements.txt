@@ -1,0 +1,13 @@
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web frameworks
+streamlit>=1.28.0
+flask>=3.0.0
+
+# Additional utilities
+Pillow>=10.0.0
