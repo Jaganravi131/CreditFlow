@@ -2,6 +2,25 @@ CreditFlow (A machine learning solution for predicting and attributing conversio
 
 Conversion Attribution System
 
+## 🎮 Try the Live Demo!
+
+**Quick Start:**
+```bash
+pip install -r requirements.txt
+streamlit run conversion_simulator.py
+```
+
+Or use the startup script (Linux/Mac):
+```bash
+./start_demo.sh
+```
+
+The interactive demo will open in your browser at `http://localhost:8501`
+
+📖 For detailed instructions, see [QUICKSTART.md](QUICKSTART.md)
+
+---
+
 📋 Table of Contents
 Overview
 Dataset
@@ -150,6 +169,18 @@ Set cost metrics
 Explore user characteristics
 See real-time predictions for conversion and attribution
 Get bidding recommendations based on the predictions
+
+### Demo Preview
+
+![CreditFlow Simulator](https://github.com/user-attachments/assets/6252c969-eae9-45eb-9e26-22d6a21fd43a)
+
+The interactive simulator provides:
+- **Real-time conversion and attribution predictions**
+- **Bidding recommendations** (Bid Higher/Maintain/Lower)
+- **What-If Analysis** - Explore how changes in parameters affect predictions
+- **Sensitivity Analysis** - Interactive charts showing feature importance
+- **User-friendly interface** - Sliders and controls for all parameters
+
 🔬 Technical Details
 Models
 Conversion Model: Gradient Boosting Classifier trained to predict whether an impression will lead to a conversion
